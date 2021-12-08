@@ -53,3 +53,4 @@ zope.interface==5.4.0
 djangorestframework-simplejwt==5.0.0
 dj-rest-auth==2.1.11
 django-filter==21.1
+django-cors-headers==3.10.1
