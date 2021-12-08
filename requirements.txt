@@ -53,5 +53,5 @@ djangorestframework-simplejwt==4.5.0
 dj-rest-auth==2.1.11
 django-filter==21.1
 django-cors-headers==3.10.1
-social-auth-app-django==5.0.0
+social-auth-app-django==4.0.0
 djoser==2.1.0
