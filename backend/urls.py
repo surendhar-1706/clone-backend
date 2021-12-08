@@ -40,7 +40,7 @@ urlpatterns = [
     path('accounts/', include('allauth.urls'), name='socialaccount_signup'),
     # swagger
     path('', schema_view),
-    url(r'^', include('django.contrib.auth.urls')),
+    re_path(r'^', include('django.contrib.auth.urls')),
 
 ]
 
