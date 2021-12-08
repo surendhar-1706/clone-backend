@@ -39,7 +39,7 @@ urlpatterns = [
     path('auth/google/', GoogleLogin.as_view()),
     path('accounts/', include('allauth.urls'), name='socialaccount_signup'),
     # swagger
-    path('', schema_view),
+    re_path(r'^$', schema_view),
     re_path(r'^', include('django.contrib.auth.urls')),
 
 ]
