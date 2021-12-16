@@ -22,7 +22,7 @@ SECRET_KEY = 'django-insecure-a9gg!rg3kudq7gzjn7y$4hms(bp*x@@&77z-8w@z5jywv-1d7k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*'] 
+ALLOWED_HOSTS = ['*']
 SESSION_COOKIE_SAMESITE = None
 # SOCIAL_AUTH_REDIRECT_IS_HTTPS = True
 # Application definition
@@ -180,7 +180,8 @@ CORS_ALLOWED_ORIGINS = [
     "https://example.com",
     "https://sub.example.com",
     "http://localhost:3000",
-    "http://127.0.0.1:3000"
+    "http://127.0.0.1:3000",
+    "https://ecstatic-leavitt-82dd85.netlify.app"
 ]
 
 
