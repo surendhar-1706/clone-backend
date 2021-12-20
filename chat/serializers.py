@@ -17,5 +17,11 @@ class ChatRoomMessageSerializer(serializers.ModelSerializer):
     messages = ChatSerializer(many=True)
 
     class Meta:
-        models = ChatRoom
+        model = ChatRoom
         fields = '__all__'
+
+
+class ChatRoomNameSerializer(serializers.ModelSerializer):
+      class Meta:
+        model= ChatRoom
+        fields =('user_id_1','user_id_2','room_name')
