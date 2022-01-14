@@ -55,3 +55,4 @@ django-filter==21.1
 django-cors-headers==3.10.1
 social-auth-app-django==4.0.0
 djoser==2.1.0
+Pillow==9.0.0
