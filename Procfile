@@ -1,1 +1,2 @@
-web: gunicorn backend.wsgi --log-file -
+
+web: daphne backend.asgi:application --log-file -
