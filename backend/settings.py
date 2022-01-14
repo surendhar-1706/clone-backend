@@ -177,18 +177,18 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-# CORS_ALLOWED_ORIGINS = [
-#     "https://example.com",
-#     "https://sub.example.com",
-#     "http://localhost:3000",
-#     "http://127.0.0.1:3000",
-#     "https://ecstatic-leavitt-82dd85.netlify.app",
-#     'https://61e17740b3c6b70008b73d5a--ecstatic-leavitt-82dd85.netlify.app'
-# ]
-
 CORS_ALLOWED_ORIGINS = [
-   "*"
+    "https://example.com",
+    "https://sub.example.com",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "https://ecstatic-leavitt-82dd85.netlify.app",
+    'https://61e17740b3c6b70008b73d5a--ecstatic-leavitt-82dd85.netlify.app'
 ]
+
+# CORS_ALLOWED_ORIGINS = [
+#    "*"
+# ]
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.
