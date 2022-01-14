@@ -1,3 +1,3 @@
 release: python manage.py migrate
 
-web: daphne backend.asgi:application
+web: gunicorn backend.wsgi --log-file -
